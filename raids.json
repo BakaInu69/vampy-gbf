@@ -1,5 +1,11 @@
 [
 {
+	"japanese": "Lv150 アルティメットバハムート",
+	"english": "Lvl 150 Ultimate Bahamut",
+	"room": "lvl150ultimatebahamut",
+	"image": "/assets/raids/Ultimate_Bahamut_Impossible_twitter.jpg"
+},
+	{
 	"japanese": "Lv100 プロトバハムート",
 	"english": "Lvl 100 Proto Bahamut",
 	"room": "lvl100protobahamut",
