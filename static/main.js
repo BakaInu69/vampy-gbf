@@ -9,6 +9,7 @@ var beepsSoundNotif = new Audio( '/assets/sounds/Beeps_Appear.wav' );
 var lilyRingRingSoundNotif = new Audio( '/assets/sounds/Lily_Event_RingRing.mp3' );
 var andiraOniichanSoundNotif = new Audio( '/assets/sounds/Andira_Oniichan.mp3' );
 var titanfallDroppingNowSoundNotif = new Audio( '/assets/sounds/Titanfall_DroppingNow.mp3' );
+var MeduSoundNotif = new Audio( '/assets/sounds/medu.mp3' );
 
 var settings = {
 	notification: {
@@ -214,8 +215,11 @@ function PlaySoundNotif( data ) {
 			} else if ( settings.notification.soundNotifChoice === "titanfall-droppingnow" ) {
 				titanfallDroppingNowSoundNotif.volume = ( settings.notification.soundNotifVolume / 100 );
 				titanfallDroppingNowSoundNotif.play();
+			} else if ( settings.notification.soundNotifChoice === "medu" ) {
+				meduSoundNotif.volume = ( settings.notification.soundNotifVolume / 100 );
+				meduSoundNotif.play();
 			}
-			if ( settings.debugLevel > 0 ) {
+			if ( settings.debugLevel > 0 ) {	
 				console.log( "Played sound notif." );
 			}
 		} catch ( error ) {
