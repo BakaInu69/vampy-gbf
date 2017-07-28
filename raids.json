@@ -5,6 +5,12 @@
 	"room": "lvl150ultimatebahamut",
 	"image": "/assets/raids/BattleRaid_Ultimate_Bahamut_Normal.png"
 },
+{
+	"japanese": "Lv200 アルティメットバハムート",
+	"english": "Lvl 200 Ultimate Bahamut",
+	"room": "lvl150ultimatebahamut",
+	"image": "/assets/raids/BattleRaid_Ultimate_Bahamut_Impossible.png"
+},
 	{
 	"japanese": "Lv100 プロトバハムート",
 	"english": "Lvl 100 Proto Bahamut",
