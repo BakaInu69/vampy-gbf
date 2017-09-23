@@ -1,17 +1,5 @@
 [
 {
-	"japanese": "Lv150 アルティメットバハムート",
-	"english": "Lvl 150 Ultimate Bahamut",
-	"room": "lvl150ultimatebahamut",
-	"image": "/assets/raids/BattleRaid_Ultimate_Bahamut_Normal.png"
-},
-{
-	"japanese": "Lv200 アルティメットバハムート",
-	"english": "Lvl 200 Ultimate Bahamut",
-	"room": "lvl200ultimatebahamut",
-	"image": "/assets/raids/BattleRaid_Ultimate_Bahamut_Impossible.png"
-},
-	{
 	"japanese": "Lv100 プロトバハムート",
 	"english": "Lvl 100 Proto Bahamut",
 	"room": "lvl100protobahamut",
@@ -473,7 +461,19 @@
 	"room": "lvl90zephyrus",
 	"image": "/assets/raids/Zephyrus_ExtremePlus.jpg"
 },
-	{
+{
+	"english": "Lvl 150 Ultimate Bahamut",
+	"japanese": "Lv150 アルティメットバハムート",
+	"room": "lvl150ultimatebahamut",
+	"image": "/assets/raids/BattleRaid_Ultimate_Bahamut_Normal.png"
+},
+{
+	"english": "Lvl 200 Ultimate Bahamut",
+	"japanese": "Lv200 アルティメットバハムート",
+	"room": "lvl200ultimatebahamut",
+	"image": "/assets/raids/BattleRaid_Ultimate_Bahamut_Impossible.png"
+},
+{
 	"english": "Lvl 30 Elder Vestige",
 	"japanese": "Lv30 先史の遺像",
 	"room": "lvl30eldervestige",
@@ -530,6 +530,30 @@
 {
 	"english": "Lvl 100 Oktopode",
 	"japanese": "Lv100 オクトポーデ",
-	"room": "lvl100oktopode",
+	"room": "lv1100oktopode",
 	"image": "/assets/raids/BattleRaid_Oktopode_Nightmare100.png"
+},
+{
+	"english": "Lvl 90 Piasa",
+	"japanese": "Lv90 パイア・ソー",
+	"room": "lvl90piasa",
+	"image": "/assets/raids/BattleRaid_Piasa_Nightmare90.png"
+},
+{
+	"english": "Lvl 95 Piasa",
+	"japanese": "Lv95 パイア・ソー",
+	"room": "lvl95piasa",
+	"image": "/assets/raids/BattleRaid_Piasa_Nightmare95.png"
+},
+{
+	"english": "Lvl 100 Piasa",
+	"japanese": "Lv100 パイア・ソー",
+	"room": "lvl100piasa",
+	"image": "/assets/raids/BattleRaid_Piasa_Nightmare100.png"
+},
+{
+	"english": "Lvl 75 Tyrannus",
+	"japanese": "Lv75 ティラノス",
+	"room": "lvl75tyrannus",
+	"image": "/assets/raids/BattleRaid_Bizarre_Beast_ExtremePlus.png"
 }]
