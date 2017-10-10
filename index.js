@@ -98,7 +98,7 @@ function StartTwitterStream() {
 			let room = searchTextForRaids( event.text );
 			var message = "No Twitter Message.";
 			var language = "JP";
-			var raidID = event.text.substr( event.text.indexOf( 'ID' ) + 3, 9 );
+			var raidID = event.text.substr( event.text.indexOf( 'ID' ) + -12, 9 );
 			if ( raidID.charAt( 0 ) == " " ) {
 				raidID = raidID.substr( 1, 8 );
 			} else {
