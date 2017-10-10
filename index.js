@@ -106,10 +106,10 @@ function StartTwitterStream() {
 			}
 			if ( event.text.substr( 11, 10 ) !== "参加者募集！参戦ID" && event.text.substr( 11, 10 ) !== "I need bac" ) {
 				if ( event.text.indexOf( '参戦ID' ) !== -1 ) {
-					message = event.text.substring( 0, event.text.indexOf( '参戦ID' ) - 0 );
+					message = event.text.substring( 0, event.text.indexOf( '参戦ID' ) + 11 );
 					language = "JP";
 				} else if ( event.text.indexOf( 'Battle ID' ) !== -1 ) {
-					message = event.text.substring( 0, event.text.indexOf( 'Battle ID' ) - 0 );
+					message = event.text.substring( 0, event.text.indexOf( 'Battle ID' ) + 11 );
 					language = "EN";
 				}
 			}
